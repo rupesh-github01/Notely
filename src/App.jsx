@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './styles/app.css';
-import Sidebar from './components/Sidebar';
-import Editor from './components/Editor';
-import Modal from './components/Modal';
+import Sidebar from './components/Sidebar.jsx';
+import Editor from './components/Editor.jsx';
+import Modal from './components/Modal.jsx';
 import { loadData, saveData } from './utils/storage';
 
 function App() {
