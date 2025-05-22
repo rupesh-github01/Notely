@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './styles/app.css';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar'
 import Editor from './components/Editor';
 import Modal from './components/Modal';
 import { loadData, saveData } from './utils/storage';
